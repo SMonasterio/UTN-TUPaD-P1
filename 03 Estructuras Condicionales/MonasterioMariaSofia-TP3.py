@@ -152,16 +152,6 @@ import random
 #10) Escribir un programa que pregunte al usuario en cuál hemisferio se encuentra (N/S), qué mes
 #del año es y qué día es. El programa deberá utilizar esa información para imprimir por pantalla
 #si el usuario se encuentra en otoño, invierno, primavera o verano.
-dinero = 1000
-dinero_retirar = float(input("Ingrese la cantidad de dinero a retirar: "))
-if dinero > dinero_retirar:
-    dinero -= dinero_retirar
-    print("Dinero restante:", dinero)
-else:
-    print(int "saldo insuficiente, saldo actual ${dinero}")
-
-
-
 print("Ingrese el hemisferio (N/S):")
 hemisferio = input().upper()
 print("Ingrese el mes (1-12):")
